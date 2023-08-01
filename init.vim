@@ -1,3 +1,5 @@
+" Install vim-plug to enable plugins
+"  https://github.com/junegunn/vim-plug#neovim
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 " Themes 
