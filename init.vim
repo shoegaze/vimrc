@@ -153,4 +153,7 @@ let g:ale_sign_error = '!!'
 let g:ale_sign_warning = '??'
 
 " youcompleteme
+"  To install correctly: 
+"   * https://neovim.io/doc/user/provider.html#provider-python
+"   * https://github.com/ycm-core/YouCompleteMe#installation
 let g:ycm_clangd_binary_path = system('brew --prefix llvm').'/bin/clangd'
