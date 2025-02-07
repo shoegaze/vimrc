@@ -53,6 +53,14 @@ filetype plugin indent on
 
 set number relativenumber
 
+" Toggle relative line numbers between modes
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+augroup END 
+
+
 let mapleader = " "
 
 inoremap jk <Esc>
