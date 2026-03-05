@@ -70,25 +70,18 @@ nmap <leader>q :q<cr>
 nmap <leader>Q :q!<cr>
 nnoremap <leader>R :! 
 
-nnoremap N <Nop>
-vnoremap N <Nop>
-nnoremap N ^
-vnoremap N ^
-
-nnoremap M <Nop>
-vnoremap M <Nop>
-nnoremap M $
-vnoremap M $
+nnoremap <leader>h ^
+nnoremap <leader>l $
 
 " nnoremap <leader>\ %
 
-nnoremap <leader>tn :tabedit 
+nnoremap <leader>tt :tabedit 
 nnoremap <leader>tq :tabclose<cr>
 
 set splitright
 set splitbelow
-nnoremap <leader>vn :vnew 
-nnoremap <leader>hn :split 
+nnoremap <leader>vv :vnew 
+nnoremap <leader>hh :split 
 nnoremap <leader>W <C-w>w
 
 nnoremap <leader><Tab> gt
