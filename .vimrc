@@ -28,7 +28,9 @@ nmap <leader>Q :q!<cr>
 nnoremap <leader>R :!
 
 nnoremap <leader>h ^
+vnoremap <leader>h ^
 nnoremap <leader>l $
+vnoremap <leader>l $
 
 " nnoremap <leader>\ %
 
