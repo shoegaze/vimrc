@@ -1,0 +1,126 @@
+{
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "#cfda21",
+  "vim.easymotionMarkerFontWeight": "normal",
+  "vim.handleKeys": {
+    "<C-b>": false,
+    "<C-c>": false,
+    "<C-d>": true,
+    "<C-v>": false,
+    "<C-w>": false,
+    "<C-x>": false
+  },
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "\\"
+      ],
+      "after": [
+        "%"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "<leader>",
+        "K"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.insertCursorAbove"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "<leader>",
+        "J"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.insertCursorBelow"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "<leader>",
+        "c"
+      ],
+      "commands": [
+        {
+          "command": "breadcrumbs.focusAndSelect"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "<leader>",
+        "C"
+      ],
+      "commands": [
+        {
+          "command": "breadcrumbs.toggle"
+        }
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "after": [
+        "$"
+      ]
+    }
+  ]
+  //,
+}
